@@ -1,0 +1,76 @@
+/*Banner dos Contatos*/
+
+section.bannerService{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    background-image: url(../images/background-contato.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Sessão das Mensagens*/
+
+section.mensage{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    top: -80px;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+section.mensage h2{
+    color: rgb(82, 82, 82);
+    font-family: 'Anek Telugu', sans-serif;
+    letter-spacing: 2px;
+}
+
+section.mensage p{
+    color: rgb(82, 82, 82);
+    font-family: 'Anek Telugu', sans-serif;
+    letter-spacing: 2px;
+}
+
+section.mensage form{
+    color: rgb(82, 82, 82);
+    margin-top: 30px ;
+}
+
+section.mensage form input{
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(82, 82, 82);
+    font-size: 16px;
+    border: none;
+    border-bottom:1px solid #ccc ;
+}
+
+section.mensage form textarea{
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    color: rgb(82, 82, 82);
+    outline: none;
+    margin: 20px 0;
+    border-color: #ccc;
+}
+
+section.mensage form input[type="submit"]{
+    background-color: rgb(0, 102, 255);
+    color: white;
+    cursor: pointer;
+}
+
+section.mensage form input[type="submit"]:hover{
+    background-color: rgb(0, 153, 255);
+}

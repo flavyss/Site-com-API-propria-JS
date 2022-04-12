@@ -1,0 +1,76 @@
+/*Sessão de faixa da imagem*/
+
+section.faixainfo{
+    width: 100%;
+    height: 45vh;
+    background-image: url(../images/fenance.jpeg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/*sessão de serviços*/
+
+section.serviços{
+    width: 100%;
+}
+
+section.serviços{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    top: -80px;
+    color: rgb(82, 82, 82);
+    font-family: 'Anek Telugu', sans-serif;
+    letter-spacing: 2px;
+    padding: 25px 0;
+}
+
+section.serviços h1{
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+section.serviços .servicos-content{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+section.serviços .servicos-wraper{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+section.serviços .servicos-wraper:nth-child(2),
+section.serviços .servicos-wraper:nth-child(4)
+{
+    flex-direction: row-reverse;
+}
+
+section.serviços .textserver{
+    width: 100%;
+}
+
+section.serviços .textwr{
+    width:90%;
+    margin: 0 auto;
+}
+
+section.serviços .img-serv{
+    width: 100%;
+    padding: 30px;
+}
+
+section.serviços .img-serv img{
+    width: 100%;
+}

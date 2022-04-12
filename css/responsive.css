@@ -1,0 +1,237 @@
+/*Ocultando Menu Mobile*/
+
+nav.menu_mobile{
+    display:none;
+}
+
+@media screen and (max-width: 850px){
+
+    /*Sessão do Banner*/
+
+    section.banner{
+        margin-top: 80px;
+    }
+
+    /*Ocultando Menu desktop e inserindo o mobile*/
+
+    header nav.menu_desktop{
+        display: none;
+    }
+
+    nav.menu_mobile{
+        display:flex;
+        line-height: 50px;
+        cursor: pointer;
+    }
+
+
+    nav.menu_mobile ul{
+        width: 0;
+        position:fixed;
+        text-align: center;
+        overflow: hidden;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        list-style: none;
+        background-color: black;
+        z-index: 9999;
+        text-align: center;
+        padding-top: 50px;
+        transition: 1s;
+    }
+    nav.menu_mobile ul h2{
+        color: rgb(0, 24, 85); 
+        cursor: pointer;
+    }
+
+    nav.menu_mobile ul li{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    nav.menu_mobile ul li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav.menu_mobile ul li a:hover,
+    header nav.menu_mobile ul li .Selected{
+        color: rgb(0, 24, 85);  
+        font-weight: bold;
+    }
+
+    header nav.menu_mobile ul li .Login i{
+        padding: 0 5px;
+    }
+
+    /*Search*/
+
+    .search{
+        width: 90%;
+    }
+
+    /*Apresentando carros*/
+
+    section.Lançamentos .carros-wraper{
+        width: calc(100% / 2);
+    }
+
+    /*Marcas*/
+
+    section.marcas .marca{
+        width: 100%;
+    }
+
+
+    /*Responsivo do login*/
+
+    section.login > .container{
+        flex-wrap: wrap;
+    }
+
+    section.login .redes{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    section.login .redes button{
+        width: 90%;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    section.login .log{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    /*Formulario de mensagem*/
+
+    section.mensage{
+        width: 90%;
+    }
+
+
+
+    section.serviços h2{
+        width: 90%;
+    }
+    
+    /*Sessão de faixa da imagem*/
+
+    section.serviços .servicos-content{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    section.serviços .servicos-wraper{
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    section.serviços .img-serv{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    section.serviços .img-serv img{
+        width: 70%;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px){
+    
+
+    /*Logo do Site*/
+
+    header .logo{
+        width: 100%;
+    }
+
+    header .logo img{
+        width: 50px;
+    }
+
+    header .logo h2{
+        font-size: 35px;
+    }
+
+    /*Search*/
+
+    .search{
+        width: 100%;
+    }
+
+    .search form .lupa{
+        width: 20%;
+    }
+    
+
+    /*Carro*/
+
+    .carro{
+        width: 100%;
+    }
+
+    /*Apresentando carros*/
+
+    section.Lançamentos .carros-wraper{
+        width: 100%;
+    }
+
+    section.Lançamentos .text-car{
+        text-align: center;
+    }
+
+    /*Marcas*/
+
+    section.marcas .marca-wraper{
+        width: calc(100% / 2);
+
+    }
+
+
+    /*Responsivo do login*/
+
+    section.login{
+        width: 95%;
+    }
+
+    section.login > .container{
+        flex-wrap: wrap;
+    }
+
+    section.login .redes{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    section.login .redes button{
+        width: 90%;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    section.login .log{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    section.serviços h1{
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    section.serviços .img-serv img{
+        width: 100%;
+    }
+
+    
+}

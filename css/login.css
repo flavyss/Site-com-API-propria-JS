@@ -1,0 +1,108 @@
+/*Banner da pagina de login*/
+
+section.banner-login{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    background-image: url(../images/background-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Área de Login*/
+section.login{
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    padding: 40px 10px;
+    top: -80px;
+}
+
+section.login > .container{
+    width: 100%;
+    display: flex;
+}
+
+section.login .redes{
+    width: 50%;
+    padding: 0 10px;
+}
+
+section.login .rede-login{
+    margin: 35px 0;
+}
+
+section.login .redes button{
+    display: block;
+    margin: 30px 0;
+    width: 80%;
+    padding: 10px ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(51, 77, 183);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: start;
+}
+
+section.login .redes span{
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+
+section.login .redes a{
+    text-decoration: none;
+}
+
+section.login .redes .apple{
+    background-color: rgb(27, 27, 27);
+}
+
+section.login .redes .google{
+    background-color: rgb(0, 102, 255);
+}
+
+
+section.login h2{
+    color: rgb(82, 82, 82);
+    font-family: 'Anek Telugu', sans-serif;
+    letter-spacing: 2px;
+}
+
+section.login .log{
+    width: 50%;
+    padding: 0 10px;
+}
+
+section.login .log form{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+section.login .log form input{
+    border-radius: 10px;
+    width:90%;
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+    border: 1px solid #ccc;
+    outline: none;
+    color: rgb(82,82,82);
+    padding: 10px;
+}
+
+section.login .log form input[type="submit"]{
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}

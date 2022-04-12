@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Titulo do Site-->
+        <title>Motor-Trip</title>
+
+        <!--Meta tags Do site-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="KriptonFlavy">
+        <meta name="Description" content="Site para meu portifolio cujo tema: uma Locadora de Carros">
+        <meta name="keywords" content="site,portifolio,kripton,locadora,carros">
+
+        <!--Links do Site-->
+        <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/effectsJs.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;500&family=Open+Sans:ital,wght@0,300;0,500;1,300;1,500&family=Stick+No+Bills:wght@200;500&display=swap" rel="stylesheet">
+            
+        <!--Scripts Externos do Site-->
+        <script src="https://kit.fontawesome.com/c49e0b56e6.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--header do site-->
+        <header>
+            <div class="container">
+
+                <div class="logo">
+                    <a href="">
+                        <img src="images/Logo.png" alt="">
+                        <h2>Motor-Trip</h2>
+                    </a>
+                </div><!--logo do site-->
+
+                <nav class="menu_desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html"">Serviços</a></li>
+                        <li><a href="contato.html" class="Selected">Contato</a></li>
+                        <li><a href="login.html" class="Login"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
+                    </ul>
+                </nav><!--Menu Desktop-->
+
+                <nav class="menu_mobile">
+
+                    <h2 class="ativa"><i class="fa-solid fa-bars-staggered"></i></h2>
+
+                    <ul>
+
+                        <h2><i class="fa-solid fa-xmark"></i></h2>
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html" class="Selected">Contato</a></li>
+                        <li><a href="login.html" class="Login"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
+                    </ul>
+                </nav><!--Menu Mobile-->
+
+            </div><!--container-->
+        </header>
+
+        <!--sessão do banner-->
+        <section class="bannerService">
+            <div class="opacity"></div>
+        </section><!--banner Service-->
+
+        <!--sessão de mensagens-->
+        <section class="mensage">
+            <div class="container">
+
+                <h2>Duvidas ou Sugestões?</h2>
+                <p>Envie-nos uma mensagem</p>
+
+                <form 
+                class="loginMensage"
+                action="https://formspree.io/f/mdobwowz"
+                method="POST"
+                >
+
+                    <input type="text" placeholder="Nome" name="Nome"><br>
+                    <input type="email" placeholder="E-mail" name="E-mail"><br>
+                    <textarea name="mensage" placeholder="Mensagem"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+
+            </div>
+        </section>
+
+        <!--Rodapé do site-->
+        <footer>
+            <div class="container">
+                <span><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" target="_blank"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a> <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a> <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
+                <p>Todos os Direitos Reservados - 2022 </p>
+                <p>feito com amor por KriptonFlavy <i class="fa-solid fa-laptop-code"></i></p>
+            </div><!--container-->
+        </footer>
+
+        <!--Scripts Internos do site-->
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <script src="javascript/carros.js"></script> 
+        <script src="javascript/contato.js"></script>
+        <script src="javascript/menu.js"></script>
+    
+        <df-messenger
+            intent="WELCOME"
+            chat-title="bot"
+            agent-id="6c6e802e-851c-4a03-887b-1a531d4edd52"
+            language-code="en"
+        ></df-messenger>
+    
+    </body>
+</html>
