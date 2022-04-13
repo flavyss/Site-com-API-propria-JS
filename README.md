@@ -3,7 +3,7 @@
 De todos os projetos front-end que fiz considero este o melhor e mais aproveitado, criei ele com foco em uso e ainda me ultilizei de ferramentas externas para inspirar aqueles que não desejam seguir como backend, o site consiste em entregar uma tabela de acordo com o carro pesquisado, pra iniciar coloquei apenas carros populares que vemos em nosso dia, espero que gostem fiz com muita dedicação e amor.
 PS: lembre-se rode o código, leia ele. Entenda e crie sua lógica por cima só assim você pode aprender.
 
-OBS: Em breve teremos a validação back-end deste projeto nesse perfil... Aguarde
+OBS: Em breve teremos a validação back-end deste projeto nesse perfil... Aguarde!
 
 projeto Hospedado: https://motortrip.netlify.app/
 
